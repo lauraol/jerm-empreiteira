@@ -4,6 +4,82 @@
 
 /*tablet*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*header*/
+  h1 {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-right: 0;
+    padding-bottom: 5%;
+  }
+
+  /*services offered*/
+  p.title {
+    font-size: 45px;
+  }
+
+  div.container-icons {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  div.container-icons img {
+    width: 140px;
+    height: 150px;
+  }
+
+  /*budget*/
+  p.big-title {
+    font-size: 70px;
+  }
+
+  /*about-the-company*/
+  div.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section#about-the-company p.about-text {
+    width: 100%;
+  }
+
+  section#about-the-company p.last-paragraph {
+    margin-bottom: 5%;
+  }
+
+  img#img-security-work {
+    width: 300px;
+    height: 300px;
+  }
+
+  /*contact*/
+  a div.align-items p {
+    font-size: 20px;
+    color: #707070;
+
+    margin-left: 5%;
+  }
+
+  section#contact img {
+    width: 40px;
+    height: 40px;
+  }
+
+  div img#workers {
+    width: 300px;
+    height: 212px;
+  }
+
+  /*footer*/
+  footer p {
+    padding-top: 3.5%;
+  }
 }
 
 /*smartphone*/

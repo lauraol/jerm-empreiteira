@@ -12,33 +12,10 @@ div.bg-header {
   background-size: 100%;
 }
 
-nav {
-  font-family: "Nunito", sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  margin-right: 10%;
-}
-
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-
 a {
   text-decoration: none;
   color: #ffffff;
   margin-right: 2%;
-}
-
-a#last {
-  margin-right: 0;
-}
-
-li {
-  list-style-type: none;
 }
 
 h1 {
@@ -49,6 +26,7 @@ h1 {
   text-align: end;
 
   margin-right: 10%;
+  padding-top: 5%;
 }
 
 h2 {
@@ -59,7 +37,7 @@ h2 {
   text-align: end;
 
   margin-right: 13%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
 /*services offered*/
