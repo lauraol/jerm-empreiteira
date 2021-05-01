@@ -5,6 +5,20 @@
   padding: 0;
 }
 
+/*scrollbar*/
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #707070;
+  border-radius: 10px;
+}
+
 /*header*/
 div.bg-header {
   background-image: url("../assets/img/banner-menu.svg");
