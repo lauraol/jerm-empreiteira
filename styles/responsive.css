@@ -1,5 +1,15 @@
 /*desktop*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
+  /*services offered*/
+  div.container-icons {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  div.container-icons img {
+    width: 170px;
+    height: 180px;
+  }
 }
 
 /*tablet*/
