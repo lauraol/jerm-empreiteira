@@ -129,6 +129,8 @@ form input {
 
   font-family: "Nunito", sans-serif;
   font-size: 18px;
+
+  padding-left: 10px;
 }
 
 form textarea {
@@ -139,6 +141,9 @@ form textarea {
 
   font-family: "Nunito", sans-serif;
   font-size: 18px;
+
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 button {
