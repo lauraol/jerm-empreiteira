@@ -149,6 +149,9 @@
     height: 200px;
 
     margin-bottom: 5%;
+
+    font-family: "Nunito", sans-serif !important;
+    text-align: center;
   }
 
   /*budget*/
