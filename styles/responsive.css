@@ -10,15 +10,6 @@
     width: 170px;
     height: 180px;
   }
-
-  /*budget*/
-  form input {
-    width: 800px;
-  }
-
-  form textarea {
-    width: 800px;
-  }
 }
 
 /*tablet*/
@@ -26,20 +17,11 @@
   /*header*/
   h1 {
     font-size: 60px;
-    color: #ffffff;
-    text-align: center;
-    margin-right: 0;
-  }
-
-  h2 {
-    text-align: center;
-    margin-right: 0;
-    padding-bottom: 5%;
   }
 
   /*services offered*/
   p.title {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   div.container-icons {
@@ -52,19 +34,6 @@
     height: 150px;
   }
 
-  /*budget*/
-  p.big-title {
-    font-size: 70px;
-  }
-
-  form input {
-    width: 650px;
-  }
-
-  form textarea {
-    width: 650px;
-  }
-
   /*about-the-company*/
   div.content-container {
     display: flex;
@@ -72,40 +41,28 @@
     justify-content: center;
   }
 
-  section#about-the-company p.about-text {
-    width: 100%;
-  }
-
-  section#about-the-company p.last-paragraph {
-    margin-bottom: 5%;
-  }
-
   img#img-security-work {
     width: 300px;
     height: 300px;
   }
 
+  section#about-the-company p.about-text {
+    font-size: 22px;
+  }
+
   /*contact*/
   a div.align-items p {
-    font-size: 20px;
+    font-size: 22px;
     color: #707070;
+  }
 
-    margin-left: 5%;
+  section#contact p.contact-text {
+    font-size: 22px;
   }
 
   section#contact img {
-    width: 40px;
-    height: 40px;
-  }
-
-  div img#workers {
-    width: 300px;
-    height: 212px;
-  }
-
-  /*footer*/
-  footer p {
-    padding-top: 3.5%;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -115,14 +72,12 @@
   h1 {
     font-size: 35px;
     color: #ffffff;
-    text-align: center;
 
-    margin-right: 0;
     padding-top: 2%;
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
     text-align: center;
 
@@ -132,7 +87,7 @@
 
   /*services offered*/
   p.title {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   div.container-icons {
@@ -145,62 +100,33 @@
   }
 
   div.container-icons img {
-    width: 190px;
-    height: 200px;
+    width: 170px;
+    height: 180px;
 
     margin-bottom: 5%;
-  }
-
-  /*budget*/
-  form label {
-    font-size: 20px;
-  }
-
-  form input {
-    width: 350px;
-  }
-
-  form textarea {
-    width: 350px;
-  }
-
-  p.big-title {
-    font-size: 35px;
   }
 
   /*about-the-company*/
-  div.content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  p.big-title {
+    font-size: 50px;
   }
 
   section#about-the-company p.about-text {
-    font-size: 23px;
+    font-size: 20px;
     width: 100%;
   }
 
-  section#about-the-company p.last-paragraph {
-    margin-bottom: 5%;
-  }
-
-  img#img-security-work {
-    width: 250px;
-    height: 250px;
-  }
-
   /*contact*/
-  div.contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  section#contact p.contact-text {
+    font-size: 20px;
+    text-align: start;
   }
 
   a div.align-items p {
-    font-size: 20px;
+    font-size: 18px;
     color: #707070;
 
-    margin-left: 5%;
+    margin-left: 2%;
   }
 
   section#contact img {
@@ -208,13 +134,9 @@
     height: 40px;
   }
 
-  div img#workers {
-    width: 300px;
-    height: 212px;
-  }
-
   /*footer*/
   footer p {
-    padding-top: 3.5%;
+    font-size: 15px;
+    text-align: center;
   }
 }
